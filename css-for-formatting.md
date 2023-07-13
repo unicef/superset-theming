@@ -27,12 +27,18 @@
 
 ### change the markdown's background from white to transparent
 ```
-/* this hides BOTH the filter indicator and the chart menu */ 
+/* this turns the first markdown’s background from white to transparent */ 
 
-.header-controls { 
+.grid-content > :nth-child(1) .dashboard-component-chart-holder { 
 
-  display: none !important; 
+  background-color: rgba(0,0,0,0) !important; 
 
 } 
 ```
 
+### hide grid lines in some charts for a cleaner look
+```
+/* this hides the grid lines in some charts */
+
+line{ display:none !important; }
+```
