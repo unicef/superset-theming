@@ -23,6 +23,42 @@ This repository contains useful css code to ensure that dashboards built in Supe
 #374EA2
 ```
 Note: use secondary colors sparingly
+
+- for a stoplight categorical palette, use the following:
+```
+#00833D
+#FFC20E
+#E2231A
+```
+
+- for diverging color palette, use the following:
+```
+#1CABE2
+#34B3E4
+#4CBBE6
+#64C3E8
+#7CCBEA
+#93D3EB
+#ABDBED
+#C3E3EF
+#DBEBF1
+#F3F3F3
+```
+- for a stoplight diverging color palette, use the following:
+```
+#00833d
+#419233
+#6ba126
+#95ad15
+#c1b801
+#d6b100
+#eaa900
+#fda000
+#f98600
+#f36a02
+#ec4c10
+#e2231a
+```
 ### Logos
 - the minimum width for the round and square logo is 2.5cm or 94.5px
 - the minimum width for the rectangle logo is 3.5cm or 132.28px
